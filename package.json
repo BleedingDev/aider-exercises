@@ -1,0 +1,27 @@
+{
+  "name": "ai-workshops",
+  "version": "1.0.0",
+  "description": "Workshop exercises to learn how to work with Aider",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BleedingDev/aider-exercises.git"
+  },
+  "keywords": [
+    "aider",
+    "ai",
+    "teaching",
+    "demo",
+    "exercises"
+  ],
+  "author": "Petr Glaser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BleedingDev/aider-exercises/issues"
+  },
+  "homepage": "https://github.com/BleedingDev/aider-exercises#readme"
+}
