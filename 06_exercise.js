@@ -1,6 +1,8 @@
 function UserProfile(name) {
   this.name = name;
-  this.permissions = this.permissions || ["read"];
+  if (!UserProfile.prototype.permissions) {
+    UserProfile.prototype.permissions = ["read"];
+  }
 }
 
 UserProfile.prototype.addPermission = function (permission) {
